@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "apEMDczwyYpaNOefw+qGkOYNDvZzeqYBzqnpXn3uJgqg1XEGJgpkqoOjkP3XZN6QnUMdhPOyGzU2aLBCDL3Rag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\e.santana\\source\\repos\\Crud\\BackEnd\\src\\Crud.BackEnd.Application\\Crud.BackEnd.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.santana\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

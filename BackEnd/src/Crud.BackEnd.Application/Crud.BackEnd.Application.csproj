@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crud.BackEnd.Domain.Core\Crud.BackEnd.Domain.Core.csproj" />
+    <ProjectReference Include="..\Crud.BackEnd.Domain\Crud.BackEnd.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

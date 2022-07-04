@@ -1,0 +1,55 @@
+
+<div class="d-flex justify-content-center align-content-center">
+    <form class="card border-black bg-dark p-5" (ngSubmit)="remove()" [formGroup]="form" style="max-width: 475px; width: 100%;">
+       
+        <div class="my-2 alert alert-danger d-flex align-items-center" role="alert" *ngFor="let error of errors">
+            <div>
+                {{errors}}
+            </div>
+        </div>        
+        
+        <div class="my-2">
+            <label for="nome" class="form-label">Nome: </label>
+            <input type="text" class="form-control bg-black text-white border-dark"
+                id="nome" placeholder="Nome" formControlName="fistName" [disabled]="disabled">
+        </div>
+
+        <div class="my-2">
+            <label for="Sobrenome" class="form-label">Sobrenome: </label>
+            <input type="text" class="form-control bg-black text-white border-dark"
+                id="sobrenome" placeholder="Sobrenome" formControlName="lastName" [disabled]="disabled">
+        </div>
+
+        <div class="my-2">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control bg-black text-white border-dark"
+                id="email" placeholder="name@example.com" formControlName="email" [disabled]="disabled">
+        </div>
+
+        <div class="my-2">
+                <label for="dataNascimento">Data de Nascimento:</label> 
+                <input type="text" class="form-control bg-black text-white border-0 mt-2"
+                    id="dataNascimento" type="date" placeholder="Data de nascimento" formControlName="birthday" [disabled]="disabled">
+        </div>
+
+        <div class="my-2">
+            <label for="escolaridade">Escolaridade:</label> 
+            <select class="form-control form-select bg-black border-0 mt-2 text-white" 
+                id="escolaridade" formControlName="schooling" [disabled]="disabled">
+                <option selected></option>
+                <option value="1">Infantil</option>
+                <option value="2">Fundamental</option>
+                <option value="3">Médio</option>
+                <option value="4">Superior</option>
+              </select>
+        </div>
+        
+        <div class="my-2">
+            <a class="btn btn-outline-light w-100" [routerLink]="['/usuarios/lista-de-usuario']">Voltar</a>
+        </div>
+
+        <div class="my-2">
+            <button class="btn btn-outline-danger w-100"  type="submit">Deletar</button>
+        </div>
+    </form>
+</div>

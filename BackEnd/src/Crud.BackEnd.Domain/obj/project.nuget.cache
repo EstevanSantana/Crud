@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3E9CFSffVsrGtu9ynTXasiUgurHn+betrWDl+UUp9D65EG2CiH/Xu/nqU4bnO1wifuD6c4Eg60BpcKfMEls7PQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\e.santana\\source\\repos\\Crud\\BackEnd\\src\\Crud.BackEnd.Domain\\Crud.BackEnd.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.santana\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\e.santana\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

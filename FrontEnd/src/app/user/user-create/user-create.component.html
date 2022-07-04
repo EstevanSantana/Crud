@@ -1,0 +1,101 @@
+<div class="d-flex justify-content-center align-content-center">
+    <form class="card border-black bg-dark p-5" (ngSubmit)="add()" [formGroup]="form" style="max-width: 475px; width: 100%;">
+       
+        <div class="my-2 alert alert-danger d-flex align-items-center" role="alert" *ngFor="let error of errors">
+            <div>
+                {{errors}}
+            </div>
+        </div>        
+        
+        <div class="my-2">
+            <label for="nome" class="form-label">Nome: </label>
+            <input type="text" class="form-control bg-black text-white border-dark"
+                id="nome" placeholder="Nome" formControlName="firstName"
+                    [ngClass]="{'is-invalid': form.get('firstName')?.errors
+                            && (form.get('firstName')?.touched
+                            || form.get('firstName')?.dirty)}
+                            ">
+            <span class="text-danger"
+                *ngIf="form.get('firstName')?.hasError('required')
+                    && (form.get('firstName')?.touched
+                        || form.get('firstName')?.dirty)">
+                Preencha o campo Nome!
+            </span>
+        </div>
+
+        <div class="my-2">
+            <label for="Sobrenome" class="form-label">Sobrenome: </label>
+            <input type="text" class="form-control bg-black text-white border-dark"
+                id="sobrenome" placeholder="Sobrenome" formControlName="lastName"
+                    [ngClass]="{'is-invalid': form.get('lastName')?.errors
+                        && (form.get('lastName')?.touched
+                        || form.get('lastName')?.dirty)}
+                        ">
+            <span class="text-danger"
+                *ngIf="form.get('lastName')?.hasError('required')
+                    && (form.get('lastName')?.touched
+                        || form.get('lastName')?.dirty)">
+                Preencha o campo Sobrenome!
+            </span>
+        </div>
+
+        <div class="my-2">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control bg-black text-white border-dark"
+                id="email" placeholder="name@example.com" formControlName="email"
+                    [ngClass]="{'is-invalid': form.get('email')?.errors
+                        && (form.get('email')?.touched
+                        || form.get('email')?.dirty)}
+                        ">
+            <span class="text-danger"
+                *ngIf="form.get('email')?.hasError('required')
+                    && (form.get('email')?.touched
+                        || form.get('email')?.dirty)">
+                Preencha o campo Email!
+            </span>
+        </div>
+
+        <div class="my-2">
+                <label for="dataNascimento">Data de Nascimento:</label> 
+                <input type="text" class="form-control bg-black text-white border-0 mt-2"
+                    id="dataNascimento" type="date" placeholder="Data de nascimento" formControlName="birthday"
+                    [ngClass]="{'is-invalid': form.get('birthday')?.errors
+                        && (form.get('birthday')?.touched
+                        || form.get('birthday')?.dirty)}
+                        ">
+
+                <span class="text-danger"
+                    *ngIf="form.get('birthday')?.hasError('required')
+                        && (form.get('birthday')?.touched
+                            || form.get('birthday')?.dirty)">
+                    Preencha o campo Data de nascimento!
+                </span>
+        </div>
+
+        <div class="my-2">
+            <label for="escolaridade">Escolaridade:</label> 
+            <select class="form-control form-select bg-black border-0 mt-2 text-white" 
+                id="escolaridade" formControlName="schooling"
+                [ngClass]="{'is-invalid': form.get('schooling')?.errors
+                && (form.get('schooling')?.touched
+                || form.get('schooling')?.dirty)}
+                ">
+                <option selected></option>
+                <option value="1">Infantil</option>
+                <option value="2">Fundamental</option>
+                <option value="3">Médio</option>
+                <option value="4">Superior</option>
+              </select>
+            <span class="text-danger"
+                    *ngIf="form.get('schooling')?.hasError('required')
+                        && (form.get('schooling')?.touched
+                            || form.get('schooling')?.dirty)">
+                    Preencha o campo Escolaridade!
+            </span>
+        </div>
+
+        <div class="my-4">
+            <button class="btn btn-outline-warning w-100" [disabled]="form.invalid" type="submit">Cadastrar</button>
+        </div>
+    </form>
+</div>

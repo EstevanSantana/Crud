@@ -1,0 +1,34 @@
+
+<div class="container py-4" style="height: 550px;">
+    <table class="table text-white">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Data de Nascimento</th>
+                <th scope="col">Email</th>
+                <th scope="col">Escolaridade</th>
+                <th>Ações</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <th scope="row"></th>
+                <td>{{ user.fistName }} </td>
+                <td>{{ user.lastName }}</td>
+                <td>{{ user.birthday }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.schooling }}</td>
+                <td>
+                    <a class="btn btn-outline-info" [routerLink]="['/usuarios/editar', user.id]">
+                      Editar
+                    </a>
+                    <a class="btn btn-outline-danger" [routerLink]="['/usuarios/deletar', user.id]">
+                      Deletar
+                    </a>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+</div>

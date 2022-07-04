@@ -1,0 +1,12 @@
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\bin\Debug\net5.0\Crud.BackEnd.Domain.Core.deps.json
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\bin\Debug\net5.0\Crud.BackEnd.Domain.Core.dll
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\bin\Debug\net5.0\ref\Crud.BackEnd.Domain.Core.dll
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\bin\Debug\net5.0\Crud.BackEnd.Domain.Core.pdb
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.AssemblyInfo.cs
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.dll
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\ref\Crud.BackEnd.Domain.Core.dll
+C:\Users\e.santana\source\repos\Crud.BackEnd\src\Crud.BackEnd.Domain.Core\obj\Debug\net5.0\Crud.BackEnd.Domain.Core.pdb
